@@ -1,0 +1,30 @@
+<!-- Teste de front Criar motorista  -->
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Upload de Motorista</title>
+</head>
+<body>
+    <h1>Cadastro de Motorista</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" required><br><br>
+
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" name="foto" accept="image/*" required><br><br>
+
+        <label for="linha_id">Linha:</label>
+        <input type="text" id="linha_id" name="linha_id" required><br><br>
+
+        <label for="empresa_id">Empresa:</label>
+        <input type="text" id="empresa_id" name="empresa_id" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
